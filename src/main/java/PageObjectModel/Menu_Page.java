@@ -78,4 +78,18 @@ public void clickYemekMenuButton(){
         clickFunction(secimiTamamlaButton);
     }
 
+    @FindBy(id = "TekrarSecButon")
+    private WebElement TekrarSecButton;
+
+    public void clickTekrarSecButton(){
+        clickFunction(TekrarSecButton);
+    }
+
+    @FindBy(id = "CikisButon")
+    private WebElement CıkısButton;
+
+    public void clickCıkısButton(){
+        clickFunction(CıkısButton);
+    }
+
 }

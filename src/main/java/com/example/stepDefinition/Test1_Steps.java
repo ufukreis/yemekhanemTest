@@ -76,5 +76,16 @@ public class Test1_Steps {
 
     @And("click aperatif1")
     public void clickAperatif1() {
+        Menu_Page.clickYemekMenuButton9();
+    }
+
+    @Then("click tekrar sec")
+    public void clickTekrarSec() {
+        Menu_Page.clickTekrarSecButton();
+    }
+
+    @Then("click cıkıs")
+    public void clickCıkıs() {
+        Menu_Page.clickCıkısButton();
     }
 }

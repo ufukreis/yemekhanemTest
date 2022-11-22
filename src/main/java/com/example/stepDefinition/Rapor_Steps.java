@@ -40,5 +40,6 @@ public class Rapor_Steps {
 
     @Then("click gelecek kisi")
     public void clickGelecekKisi() {
+
     }
 }
